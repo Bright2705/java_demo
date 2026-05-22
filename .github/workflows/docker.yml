@@ -35,6 +35,6 @@ jobs:
       - name: Build and Push Docker image
         uses: docker/build-push-action@v5
         with:
-          context: ./java_demo
+          context: .
           push: true
           tags: nguyentriquang2705/myapp:latest
