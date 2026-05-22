@@ -16,3 +16,5 @@ jobs:
           java-version: 21
       - name: Build project
         run: mvn clean install
+      - name: test project
+        run: mvn test
